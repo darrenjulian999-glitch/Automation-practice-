@@ -299,4 +299,7 @@ bot.on('text', (ctx) => {
     }
 });
 
+const http = require("http");
+http.createServer((req, res) => { res.writeHead(200); res.end("Zoila is running"); }).listen(process.env.PORT || 3000, () => console.log("Health check server on port " + (process.env.PORT || 3000)));
+
 bot.launch();
