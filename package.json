@@ -1,10 +1,14 @@
 {
+  "name": "zoila-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
-    "image-size": "^2.0.4",
-    "node-telegram-bot-api": "^2.1.0",
-    "pdfkit": "^0.20.2",
-    "puppeteer": "^25.12.0",
-    "sqlite3": "^6.0.1",
-    "telegraf": "^4.16.3"
+    "telegraf": "^4.16.3",
+    "sqlite3": "^5.1.7",
+    "pdfkit": "^0.15.0",
+    "puppeteer": "^22.0.0"
   }
 }
